@@ -1,3 +1,21 @@
-h1{
-  font-size: 30px;
+.jumbotron{
+  background-image: url("img/badday.gif");
+  background-size: cover;
+  margin: auto;
+  width: 25%;
+  font-size: 5px;
+}
+.header{
+  height: 200px;
+  width: 200px;
+}
+.bod{
+  background-color: red;
+}
+#head{
+  font-size: 40px;
+  text-align: center;
+}
+#body1{
+  text-align: center;
 }
