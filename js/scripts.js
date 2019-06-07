@@ -11,14 +11,30 @@ $(document).ready(function() {
 
   event.preventDefault();
 
-    var combine = function(q1, q2, q3, q4, q5, q6) {
+  var combine = function(q1, q2, q3, q4, q5, q6) {
       return q1 + q2 + q3 + q4 + q5 + q6;
-  }
-
+}
     var result = combine(q1, q2, q3, q4, q5, q6);
 
-    if (result == 9) {
+    if (result < 5) {
       $("#Java").show();
-  }
+      $("#C").hide();
+      $("#Ruby").hide();
+      $("#Python").hide();
+      $("#Rust").hide();
+    } else if (result >5 && result  <13) {
+      $("#Java").show();
+      $("#C").show();
+      $("#Ruby").hide();
+      $("#Python").hide();
+      $("#Rust").hide();
+    } else if (result >5 && result  <13) {
+      $("#Java").show();
+      $("#C").show();
+      $("#Ruby").hide();
+      $("#Python").hide();
+      $("#Rust").hide();
+    }
+
 });
 });

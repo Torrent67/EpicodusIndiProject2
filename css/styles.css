@@ -46,6 +46,9 @@ label{
   font-size: 20px;
   display: none;
 }
+#C{
+  display: none;
+}
 #Ruby{
   display: none;
 }
