@@ -22,11 +22,11 @@ $(document).ready(function() {
       $("#Ruby").hide();
       $("#Python").hide();
       $("#Rust").hide();
-    } else if (result >3 && result  <8) {
-      $("#Java").show();
+    } else if (result >4 && result  <7) {
+      $("#Java").hide();
       $("#C").hide();
       $("#Ruby").show();
-      $("#Python").hide();
+      $("#Python").show();
       $("#Rust").hide();
     } else if (result >7 && result  <9) {
       $("#Java").hide();
@@ -38,11 +38,11 @@ $(document).ready(function() {
       $("#Java").hide();
       $("#C").show();
       $("#Ruby").hide();
-      $("#Python").hide();
+      $("#Python").show();
       $("#Rust").hide();
-    }else if (result >10 && result  <14) {
+    }else if (result >12 && result  <14) {
       $("#Java").hide();
-      $("#C").hide();
+      $("#C").show();
       $("#Ruby").hide();
       $("#Python").hide();
       $("#Rust").show();
