@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("#form").submit(function(event){
 
   var q1 = parseInt($("#q1").val());
