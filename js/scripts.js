@@ -16,25 +16,36 @@ $(document).ready(function() {
 }
     var result = combine(q1, q2, q3, q4, q5, q6);
 
-    if (result < 5) {
+    if (result < 3) {
       $("#Java").show();
       $("#C").hide();
       $("#Ruby").hide();
       $("#Python").hide();
       $("#Rust").hide();
-    } else if (result >5 && result  <13) {
+    } else if (result >3 && result  <8) {
       $("#Java").show();
+      $("#C").hide();
+      $("#Ruby").show();
+      $("#Python").hide();
+      $("#Rust").hide();
+    } else if (result >7 && result  <9) {
+      $("#Java").hide();
+      $("#C").hide();
+      $("#Ruby").show();
+      $("#Python").show();
+      $("#Rust").hide();
+    } else if (result >8 && result  <12) {
+      $("#Java").hide();
       $("#C").show();
       $("#Ruby").hide();
       $("#Python").hide();
       $("#Rust").hide();
-    } else if (result >5 && result  <13) {
-      $("#Java").show();
-      $("#C").show();
+    }else if (result >10 && result  <14) {
+      $("#Java").hide();
+      $("#C").hide();
       $("#Ruby").hide();
       $("#Python").hide();
-      $("#Rust").hide();
+      $("#Rust").show();
     }
-
 });
 });
