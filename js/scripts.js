@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $(".btn").click(function(){
+  $("#form").submit(function(event){
 
   var q1 = parseInt($("#q1").val());
   var q2 = parseInt($("#q2").val());
@@ -9,10 +9,16 @@ $(document).ready(function() {
   var q5 = parseInt($("#q5").val());
   var q6 = parseInt($("#q6").val());
 
-  var combine = function(q1, q2, q3, q4, q5, q6) {
-  return q1 + q2 + q3 + q4 + q5 + q6;{
+  event.preventDefault();
 
+    var combine = function(q1, q2, q3, q4, q5, q6) {
+      return q1 + q2 + q3 + q4 + q5 + q6;
   }
-  var result = combine(q1, q2, q3, q4, q5, q6);
 
-  if(result 
+    var result = combine(q1, q2, q3, q4, q5, q6);
+
+    if (result == 9) {
+      $("#Java").show();
+  }
+});
+});

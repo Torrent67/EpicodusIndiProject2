@@ -29,6 +29,7 @@ body{
   text-align: center;
 }
 #form{
+  text-align-last: justify;
   background-color: white;
   font-size: 20px;
   font-family: sans-serif;
@@ -37,3 +38,20 @@ body{
   align-self: center;
   margin: auto;
   width: 50%;
+}
+label{
+  text-decoration: underline black;
+}
+#Java{
+  font-size: 20px;
+  display: none;
+}
+#Ruby{
+  display: none;
+}
+#Python{
+  display: none;
+}
+#Rust{
+display: none;
+}
