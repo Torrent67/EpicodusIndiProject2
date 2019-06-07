@@ -29,6 +29,7 @@ body{
   text-align: center;
 }
 #form{
+  background-color: white;
   font-size: 20px;
   font-family: sans-serif;
   color: red;
